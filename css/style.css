@@ -7,6 +7,17 @@
     max-width: 700px;
 }
 
+.ms_dropdown_icon::after{
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: middle;
+    content: "";
+    width: 0.4em;
+    height: 0.4em;
+    border-right: 0.1em solid gray;
+    border-top: 0.1em solid gray;
+    transform: rotate(135deg);
+}
 
 
 /* HEADER */
