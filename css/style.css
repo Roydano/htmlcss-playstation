@@ -1,4 +1,7 @@
 /* COMMON */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .ms_pb_20{
     padding-bottom: 20px;
 }
@@ -7,9 +10,11 @@
     max-width: 700px;
 }
 
+
 .ms_dropdown_icon::after{
     display: inline-block;
     margin-left: .255em;
+    margin-right: 0.8em;
     vertical-align: middle;
     content: "";
     width: 0.4em;
@@ -18,6 +23,8 @@
     border-top: 0.1em solid gray;
     transform: rotate(135deg);
 }
+
+
 
 
 /* HEADER */
@@ -29,6 +36,20 @@
 .header_top img{
     height: 40px;
     width: 80px;
+}
+
+nav{
+    height: 80px;
+    background-color: white;
+}
+
+.ms_accedi_btn{
+    background-color: #363636;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.ms_right_nav{
 
 }
 
@@ -71,10 +92,7 @@
 /* HEADER */
 
 
-.debug nav{
-    height: 80px;
-    background-color: white;
-}
+
 
 /* MAIN */
 
