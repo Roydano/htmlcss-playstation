@@ -172,6 +172,24 @@ nav{
     color: white;
 }
 
+/* FOOTER */
+
+footer{
+    background-color: #00439c;
+}
+
+footer .logo_play{
+    min-width: 100px;
+    display: block;
+
+}
+
+footer .world{
+    max-width: 20px;
+}
+
+
+
 
 /* MEDIA QUERY */
 
@@ -198,10 +216,6 @@ nav{
 
 /* FOOTER */
 
-.debug footer{
-    height: 800px;
-    background-color: #00439c;
-}
 
 .debug .logo_footer{
     width: 100px;
