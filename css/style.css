@@ -53,7 +53,8 @@ body{
 .console_gadget img,
 #nuove_uscite .desk_icon img,
 #play_4 .console_gadget img,
-#sconti .desk_sconti img{
+#sconti .desk_sconti img,
+#social .box_social img{
     width: 100%;
 }
 
@@ -133,7 +134,7 @@ nav{
     border-bottom: 2px solid #0072ce;
 }
 
-/* SEZIONE 3 - NUOVE USCITE */
+/* SECTION 3 - NUOVE USCITE */
 
 #nuove_uscite{
     background-color: #1f1f1f;
@@ -193,22 +194,6 @@ nav{
     
 
 /* DEBUG */
-
-
-
-/* desk icon */
-
-.debug .box,
-.debug .box_social{
-    height: 100px;
-    background-color: red;
-    border-radius: 20px;
-}
-
-
-/* QUINTA SEZIONE - PLAY PLUS */
-
-
 
 
 /* FOOTER */
