@@ -67,7 +67,6 @@ nav{
 }
 
 
-
 .img_infobox{
     height: 680px;
     display: flex;
@@ -79,6 +78,18 @@ nav{
     padding: 10px 15px;
     border-radius: 30px;
 }
+
+#primo_piano .desk_icon img{
+    width: 100%;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.ms_active img{
+    
+    border: 2px solid #0072ce;
+}
+
 
 /* SECTION 5 - PLAY-PLUS */
 
