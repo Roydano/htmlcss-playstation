@@ -94,7 +94,8 @@ nav{
 
 
 #primo_piano .info_text img,
-#nuove_uscite .info_text img{
+#nuove_uscite .info_text img,
+#play_plus .logo_plus img{
     width: 60%;
 }
 
@@ -141,9 +142,6 @@ nav{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
-
-/* SECTION 4 - PLAY 4 */
-
 /* SECTION 5 - PLAY-PLUS */
 
 #play_plus{
@@ -151,11 +149,19 @@ nav{
     background-color: #bebcbb;
 }
 
+.l_blue{
+    background-color: #d9dadc;
+}
+
 .play_plus_infobox,
 .play_now_infobox{
     display: flex;
     align-items: center;
     height: 500px;
+}
+
+#play_plus .ms_side_img img{
+    height:100%;
 }
 
 /* SECTION 7 - PLAY NOW */
@@ -172,6 +178,8 @@ nav{
 /* visione md */
 @media screen and (min-width:768px) {
 
+    /* SECTION 2 - PLAY 5 */
+
     .console_gadget img{
         width: 60%;
     }
@@ -184,7 +192,6 @@ nav{
         border-bottom: 2px solid #0072ce;
     }
     
-}
 
 /* DEBUG */
 
@@ -202,11 +209,6 @@ nav{
 
 /* QUINTA SEZIONE - PLAY PLUS */
 
-.logo_plus{
-    height: 50px;
-    width: 150px;
-    background-color: lime;
-}
 
 
 
