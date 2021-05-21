@@ -96,7 +96,8 @@ nav{
 
 #primo_piano .info_text img,
 #nuove_uscite .info_text img,
-#play_plus .logo_plus img{
+#play_plus .logo_plus img,
+#play_now .logo_now img{
     width: 60%;
 }
 
@@ -158,14 +159,14 @@ nav{
     align-items: center;
 }
 
-#play_plus .ms_side_img{
+#play_plus .ms_side_img,
+#play_now .ms_side_img{
     width: 100%;
 }
 
 /* SECTION 7 - PLAY NOW */
 
 #play_now{
-    height: 500px;
     background-color: #161c3b;
     color: white;
 }
