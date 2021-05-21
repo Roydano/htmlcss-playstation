@@ -52,7 +52,8 @@ body{
 .console img,
 .console_gadget img,
 #nuove_uscite .desk_icon img,
-#play_4 .console_gadget img{
+#play_4 .console_gadget img,
+#sconti .desk_sconti img{
     width: 100%;
 }
 
@@ -117,7 +118,6 @@ nav{
 }
 
 .ms_active img{
-    
     border: 2px solid #0072ce;
 }
 
@@ -145,7 +145,6 @@ nav{
 /* SECTION 5 - PLAY-PLUS */
 
 #play_plus{
-    height: 500px;
     background-color: #bebcbb;
 }
 
@@ -157,11 +156,10 @@ nav{
 .play_now_infobox{
     display: flex;
     align-items: center;
-    height: 500px;
 }
 
-#play_plus .ms_side_img img{
-    height:100%;
+#play_plus .ms_side_img{
+    width: 100%;
 }
 
 /* SECTION 7 - PLAY NOW */
