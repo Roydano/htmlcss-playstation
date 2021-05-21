@@ -161,10 +161,19 @@ nav{
 
 /* MEDIA QUERY */
 
+/* visione md */
 @media screen and (min-width:768px) {
 
     .console_gadget img{
         width: 60%;
+    }
+
+    .ms_active_bborder{
+        border: none;
+    }
+
+    .ms_active_bborder_md{
+        border-bottom: 2px solid #0072ce;
     }
     
 }
