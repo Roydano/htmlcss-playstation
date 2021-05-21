@@ -7,6 +7,10 @@ body{
     font-size: 13px;
 }
 
+.ms_fs_18{
+    font-size: 18px;
+}
+
 .ms_pb_30{
     padding-bottom: 30px;
 }
@@ -37,7 +41,8 @@ body{
 }
 
 #primo_piano .desk_icon img,
-.console img{
+.console img,
+#nuove_uscite .desk_icon img{
     width: 100%;
 }
 
@@ -58,6 +63,13 @@ nav{
     background-color: white;
 }
 
+.img_full_screen{
+    object-fit:contain;
+    background-position: center;
+    height: 670px;
+    background-repeat: no-repeat;
+}
+
 .ms_accedi_btn{
     background-color: #363636;
     border-radius: 20px;
@@ -66,15 +78,14 @@ nav{
 
 
 /* SECTION 1 - PRIMO PIANO */
-.img_full_screen{
+#primo_piano .img_full_screen{
     background-image: url(../img/jumbo-bg.png);
-    object-fit:contain;
-    background-position: center;
-    height: 670px;
-    background-repeat: no-repeat;
 }
 
-#primo_piano .info_text img{
+
+#primo_piano .info_text img,
+.console_gadget img,
+#nuove_uscite .info_text img{
     width: 50%;
 }
 
@@ -89,7 +100,8 @@ nav{
     background-color: #cd3d0f;
 }
 
-#primo_piano .desk_icon img{
+#primo_piano .desk_icon img,
+#nuove_uscite .desk_icon img{
     border-radius: 20px;
     padding: 3px;
 }
@@ -99,10 +111,25 @@ nav{
     border: 2px solid #0072ce;
 }
 
-/* SECTION 2 - PLAY 4 */
+/* SECTION 2 - PLAY 5 */
 
 .blue{
     background-color: #2d64e6;
+}
+
+
+.ms_active_bborder{
+    border-bottom: 2px solid #0072ce;
+}
+
+/* SEZIONE 3 - NUOVE USCITE */
+
+#nuove_uscite{
+    background-color: #1f1f1f;
+}
+
+#nuove_uscite .img_full_screen{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 /* SECTION 5 - PLAY-PLUS */
@@ -133,19 +160,6 @@ nav{
 
 
 /* DEBUG */
-
-/* HEADER */
-
-
-
-
-/* MAIN */
-
-/* PRIMA SEZIONE - PRIMO PIANO */
-
-
-
-
 
 
 
