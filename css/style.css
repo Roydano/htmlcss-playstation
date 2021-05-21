@@ -15,6 +15,10 @@ body{
     font-size: 40px;
 }
 
+.ms_mt-n15{
+    margin-top: -15px;
+}
+
 .ms_pb_30{
     padding-bottom: 30px;
 }
@@ -47,7 +51,8 @@ body{
 #primo_piano .desk_icon img,
 .console img,
 .console_gadget img,
-#nuove_uscite .desk_icon img{
+#nuove_uscite .desk_icon img,
+#play_4 .console_gadget img{
     width: 100%;
 }
 
@@ -135,6 +140,9 @@ nav{
 #nuove_uscite .img_full_screen{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
+
+
+/* SECTION 4 - PLAY 4 */
 
 /* SECTION 5 - PLAY-PLUS */
 
