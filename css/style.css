@@ -11,6 +11,10 @@ body{
     font-size: 18px;
 }
 
+.ms_fs_40{
+    font-size: 40px;
+}
+
 .ms_pb_30{
     padding-bottom: 30px;
 }
@@ -42,6 +46,7 @@ body{
 
 #primo_piano .desk_icon img,
 .console img,
+.console_gadget img,
 #nuove_uscite .desk_icon img{
     width: 100%;
 }
@@ -64,7 +69,7 @@ nav{
 }
 
 .img_full_screen{
-    object-fit:contain;
+    background-size: cover;
     background-position: center;
     height: 670px;
     background-repeat: no-repeat;
@@ -84,9 +89,8 @@ nav{
 
 
 #primo_piano .info_text img,
-.console_gadget img,
 #nuove_uscite .info_text img{
-    width: 50%;
+    width: 60%;
 }
 
 
@@ -155,9 +159,15 @@ nav{
 }
 
 
+/* MEDIA QUERY */
 
+@media screen and (min-width:768px) {
 
-
+    .console_gadget img{
+        width: 60%;
+    }
+    
+}
 
 /* DEBUG */
 
