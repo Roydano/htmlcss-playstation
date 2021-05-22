@@ -3,6 +3,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.ms_opacity{
+    opacity: 0.5;
+}
+
+.ms_cursor_p{
+    cursor: pointer;
+}
+
 .ms_fs_13{
     font-size: 13px;
 }
@@ -46,7 +54,9 @@ body{
     width: auto;
     padding: 10px 15px;
     border-radius: 30px;
+    cursor: pointer;
 }
+
 
 #primo_piano .desk_icon img,
 .console img,
@@ -172,6 +182,12 @@ nav{
     color: white;
 }
 
+/* SECTION 8 - SOCIAL */
+
+#social .box_social img{
+    transition: all 2s;
+}
+
 /* FOOTER */
 
 footer{
@@ -201,6 +217,45 @@ footer .logo_sony{
     width: 150px;
 }
 
+/* SEZIONE HOVER */
+
+
+/* bordo interno quando si fa hover */
+div.ms_bor_hov:hover{
+    outline: 2px solid black;
+    outline-offset: -5px;
+}
+
+/* immagine sale quando si fa hover */
+.desk_icon{
+    transition: all 3s;
+    cursor: pointer;
+}
+
+.desk_icon:hover{
+    top: -10px;
+}
+
+/* bottone blu diventa grigio quando si fa hover */
+div.blue:hover{
+    background-color: grey;
+}
+
+/* immagine sparisce l'opacità con hover */
+.console_gadget img:hover{
+    opacity: 1;
+}
+
+/* inverti colori ai pulsanti con hover */
+#play_plus div.ms_btn:hover,
+#play_now div.ms_btn:hover{
+    filter: invert(100%);
+}
+
+#social .box_social:hover img{
+    border-radius: 50%;
+}
+
 
 /* MEDIA QUERY */
 
@@ -220,3 +275,4 @@ footer .logo_sony{
     .ms_active_bborder_md{
         border-bottom: 2px solid #0072ce;
     }
+}
