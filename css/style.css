@@ -197,7 +197,9 @@ footer li>a{
     color: white;
 }
 
-
+footer .logo_sony{
+    width: 150px;
+}
 
 
 /* MEDIA QUERY */
@@ -218,17 +220,3 @@ footer li>a{
     .ms_active_bborder_md{
         border-bottom: 2px solid #0072ce;
     }
-    
-    
-
-/* DEBUG */
-
-
-/* FOOTER */
-
-
-.debug .logo_footer{
-    width: 100px;
-    height: 100px;
-    background-color: orange;
-}
