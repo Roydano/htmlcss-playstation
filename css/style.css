@@ -39,6 +39,10 @@ body{
     padding-bottom: 30px;
 }
 
+.ms_max_80{
+    max-width: 80px;
+}
+
 .ms_max_700{
     max-width: 700px;
 }
@@ -56,6 +60,7 @@ body{
     border-right: 0.1em solid gray;
     border-top: 0.1em solid gray;
     transform: rotate(135deg);
+    
 }
 
 
@@ -113,12 +118,11 @@ nav{
 /* dropdown */
 .ms_drop_fullpage{
     left:0;
-    right:0; 
     width:100vw; 
     margin-top:-10px !important;
     border: none;
-    
 }
+
 
 li.ms_style_li::before{
     display: inline-block;
@@ -129,9 +133,14 @@ li.ms_style_li::before{
     height: 0.5em;
     border: 0.1em solid gray;
     border-radius: 50%;
+    background-color: #363636;
     
 }
 
+.ms_style_a{
+    text-decoration: none;
+    color: #363636;
+}
 
 /* SECTION 1 - PRIMO PIANO */
 #primo_piano .img_full_screen{
@@ -254,6 +263,15 @@ footer .logo_sony{
 /* SEZIONE HOVER */
 
 
+/* quando passo sui link del dropdown */
+a.dropdown-item:hover{
+    background-color: white;
+    color: #2d64e6;
+}
+
+
+
+
 /* bordo interno quando si fa hover */
 div.ms_bor_hov:hover{
     outline: 2px solid black;
@@ -290,12 +308,6 @@ div.blue:hover{
     border-radius: 50%;
 }
 
-
-.ms_dropdown_icon_up:hover{
-    display: block;
-    border-right: 0.1em solid blue;
-    border-top: 0.1em solid blue;
-}
 
 
 /* MEDIA QUERY */
