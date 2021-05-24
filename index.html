@@ -40,69 +40,87 @@
 
         <!-- start menu -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+            <div class="container-fluid px-0">
                 <a class="navbar-brand" href="#">
                     <img src="img/play_logo.svg" alt="logo playstation"">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse bg-white" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link ms_dropdown_icon text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item dropdown position-static ms-3 ms-lg-0">
+                            <a class="nav-link ms_dropdown_icon text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Giochi
                             </a>
-                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                              </ul>
+                            <div class="dropdown-menu ms_drop_fullpage text-center shadow" aria-labelledby="navbarDropdown">
+                                <div class="d-flex justify-content-center">
+                                    <div class="link-box float-start">
+                                        <img src="img/play-menu-ico.png" alt="icona play5">
+                                        <a class="dropdown-item" href="#">PS1</a>
+                                    </div>
+                                    <div class="link-box float-start">
+                                        <img src="img/play-menu-ico.png" alt="icona play5">
+                                        <a class="dropdown-item" href="#">PS1</a>
+                                    </div>
+                                    <div class="link-box float-start">
+                                        <img src="img/play-menu-ico.png" alt="icona play5">
+                                        <a class="dropdown-item" href="#">PS1</a>
+                                    </div>
+                                </div>
+                                <hr>
+                                <ul class="ps-0">
+                                    <li class="d-inline ms_style_li mx-1"><a href="#">Link 1</a></li>
+                                    <li class="d-inline ms_style_li mx-1"><a href="#">Link 2</a></li>
+                                    <li class="d-inline ms_style_li mx-1"><a href="#">Link 3</a></li>
+
+
+                                </ul>
+                            </div>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link ms_dropdown_icon text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item dropdown ms-3 ms-lg-0">
+                            <a class="nav-link ms_dropdown_icon text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Hardware
                             </a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link ms_dropdown_icon text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item dropdown ms-3 ms-lg-0">
+                            <a class="nav-link ms_dropdown_icon text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Servizi
                             </a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link ms_dropdown_icon text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item dropdown ms-3 ms-lg-0">
+                            <a class="nav-link ms_dropdown_icon text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Novit&aacute;
                             </a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link ms_dropdown_icon text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item dropdown ms-3 ms-lg-0">
+                            <a class="nav-link ms_dropdown_icon text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Fai acquisti
                             </a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link ms_dropdown_icon text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item dropdown ms-3 ms-lg-0">
+                            <a class="nav-link ms_dropdown_icon text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Supporto
                             </a>
                         </li>
                     </ul>
-                    <div class="ms_right_nav d-flex ms-auto">
+                    <div class="ms_right_nav d-flex ms-md-auto ms-3">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
-                                <a class="nav-link ms_dropdown_icon text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link ms_dropdown_icon text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     My PlayStation
                                 </a>
                             </li>
                         </ul>
 
                         <div class="ms_accedi_btn">
-                            <a class="nav-link text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                  Accedi
                              </a>
                         </div>
                     </div>
                     <div class="d-flex align-items-center">
-                        <a class="nav-link text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fas fa-search"></i>
                         </a>
                     </div>

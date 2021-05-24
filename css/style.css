@@ -31,6 +31,10 @@ body{
     margin-top: 120px;
 }
 
+.ms_py_50c{
+    padding: 0 50%;
+}
+
 .ms_pb_30{
     padding-bottom: 30px;
 }
@@ -38,6 +42,7 @@ body{
 .ms_max_700{
     max-width: 700px;
 }
+
 
 
 .ms_dropdown_icon::after{
@@ -52,6 +57,7 @@ body{
     border-top: 0.1em solid gray;
     transform: rotate(135deg);
 }
+
 
 .ms_btn{
     display: inline-block;
@@ -105,13 +111,26 @@ nav{
 
 
 /* dropdown */
-
-ul.ms_dropdown{
-    position: absolute;
+.ms_drop_fullpage{
+    left:0;
+    right:0; 
+    width:100vw; 
+    margin-top:-10px !important;
     border: none;
-    width: 100vw;
+    
 }
 
+li.ms_style_li::before{
+    display: inline-block;
+    margin-right: 0.4em;
+    vertical-align: middle;
+    content: "";
+    width: 0.5em;
+    height: 0.5em;
+    border: 0.1em solid gray;
+    border-radius: 50%;
+    
+}
 
 
 /* SECTION 1 - PRIMO PIANO */
@@ -272,6 +291,13 @@ div.blue:hover{
 }
 
 
+.ms_dropdown_icon_up:hover{
+    display: block;
+    border-right: 0.1em solid blue;
+    border-top: 0.1em solid blue;
+}
+
+
 /* MEDIA QUERY */
 
 /* visione md */
@@ -291,3 +317,4 @@ div.blue:hover{
         border-bottom: 2px solid #0072ce;
     }
 }
+
