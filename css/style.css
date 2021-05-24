@@ -131,7 +131,6 @@ li.ms_style_li::before{
     content: "";
     width: 0.5em;
     height: 0.5em;
-    border: 0.1em solid gray;
     border-radius: 50%;
     background-color: #363636;
     
@@ -269,7 +268,14 @@ a.dropdown-item:hover{
     color: #2d64e6;
 }
 
+.ms_accedi_btn:hover{
+    background-color: #2d64e6;
+}
 
+a.ms_dropdown_icon:hover{
+    color: #2d64e6 !important;
+
+}
 
 
 /* bordo interno quando si fa hover */
